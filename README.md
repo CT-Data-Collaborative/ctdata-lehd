@@ -4,7 +4,7 @@
 ## The map
 Inspiration:   http://www.robertmanduca.com/projects/jobs.html
 
-This a map the displays points for every job, classified by NAICS code (industry classification), as reported via the Census Longitudinal Employer-Household Dynamics dataset (LEHD). It is a catrographic style known as dot density. The census data is extracted at the block level. Points are generated based on the count of jobs in different categories and then randomly plotted within the block group polygon. The location is not a precise geographic location, but rather algorithmic, in order to display both the intensity of a phenomenon as well as the variation at the given geographic scale.
+Above is a map that displays points for every job, classified by NAICS code (national industry classification of jobs), as reported via the Census Longitudinal Employer-Household Dynamics dataset (LEHD). It is a cartographic style known as dot density. The census data is extracted at the block level. Points are generated based on the count of jobs in different categories and then randomly plotted within the block group polygon. The location is not a precise geographic location, but rather algorithmic, in order to display both the intensity of a phenomenon as well as the variation at the given geographic scale.
 
 Here are some other examples and technical note:
 
@@ -28,11 +28,12 @@ The LEHD data is quite rich. It is a model-based approach for estimating journey
 
 The map above represents this data only by looking at the location of jobs. Alternative views could be
 
-- Mapping the job classification of workers by residential location
-- Mapping the distance traveled by job location / type
+- Mapping the job classification of workers by where the worker lives (residential location)
+- Mapping the distance traveled of the worker by job location / type
 - Mapping job classification by age, wage range, etc...
 	- For example, do job locations of high wage vs. low wage professional service differ?
 	- Are there geographic differences in the age distributions of workers in certain categories?
+	- Is there a concentration of younger workers in certain parts of the state?
 	- Etc.
 - Break down of the aggregate categories (Manufacture & Trade, Professional Services, Healthcare/Ed/Government, Retail & Hospitality) in finer grain view
 - Historic change views (2002-2012 data is available)
